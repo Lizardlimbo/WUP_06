@@ -71,6 +71,16 @@ Whites mostly favor the cappun, and among those that are opposed to the cappun a
 
 
 
+```{r}
+table1 <- xtabs(~race + cappun, data=mydata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+
+According to the numerical results about 65% of whites favor cappun and about 35% of whites people oppose it, and about 43% of black people favor cappun while 57% of black people are oppose it.
+
+
 ## Now with More data
 
 
